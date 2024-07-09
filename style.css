@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+.Azeret-Mono-font {
+    font-family: "Azeret Mono", monospace;
+}
+
+/* navigation style css start*/
+#navigation {
+    list-style: none;
+    display: flex;
+    gap: 778px;
+    justify-content: center;
+    align-items: center;
+}
+
+#navigation-name {
+    color: #0D1321;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#navigation-button-text {
+    color: #0D1321;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+#navigation-button {
+    border-radius: 8px;
+    border: 1px solid #0D1321;
+    opacity: 0.8;
+    padding: 17px 24px;
+    background-color: #FFF;
+}
+
+/* navigation style end */
+
+/* banner section start */
+.banner-section {
+    width: 1440px;
+    height: 652px;
+    margin: 0 auto;
+    background-image: url("./B10A1-Challenge-Begins/assets/Hero-bg.png");
+    margin-top: 53px;
+}
+
+.banner-section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner-section-content-img {
+    margin-top: 26px;
+}
+
+#banner-section-content-heading {
+    text-align: center;
+    color: #0D1321;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    margin-top: 54.12px;
+}
+
+#banner-section-content-description {
+    color: #0D1321;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -20px;
+    margin-left: 294px;
+    margin-right: 294px;
+}
+
+#banner-section-content-btn-text {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#banner-section-content-btn {
+    border-radius: 8px;
+    background: #0D1321;
+    padding: 21px 24px;
+    margin-bottom: 66px;
+}
+/* banner section end */
