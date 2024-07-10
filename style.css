@@ -116,7 +116,7 @@
     text-align: center;
     font-size: 32px;
     font-weight: 800;
-    margin-top: 50px;
+    padding-top:50px ;
 }
 
 #why-web-development-card1-des {
@@ -218,13 +218,12 @@
     border-radius: 16px;
     margin-top: 48px;
     margin-bottom: 20px;
-    padding: 0 32px;
+    padding:0 32px;
 }
 
 #my-inspiration-video-bg {
     border-radius: 16px;
     border: 1px solid rgba(13, 19, 33, 0.20);
-
 }
 
 /* My Inspiration section end */
@@ -366,8 +365,8 @@
     height: 313px;
     margin: 0 auto;
     margin-top: 49px;
-    background-image: border-radius: 16px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(./B10A1-Challenge-Begins/assets/handshake.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(./B10A1-Challenge-Begins/assets/handshake.jpg);
+    border-radius: 16px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
