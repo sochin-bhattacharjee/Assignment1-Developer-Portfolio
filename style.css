@@ -300,16 +300,76 @@
     cursor: pointer;
 }
 
+
+
 /* My Current Target end */
 
-/*  */
+/* My Next Target section start */
+.my-next-target {
+    width: 1140px;
+    height: 866px;
+    margin: 0 auto;
+    margin-top: 111px;
+}
+
+#my-next-target-card1-head {
+    color: #0D1321;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+#my-next-target-card1-des {
+    color: #0D1321;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+}
+.my-next-target-card2 {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: #FFF;
+    padding: 40px;
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+.my-next-target-card3 {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: #FFF;
+    padding: 40px;
+    margin-bottom: 24px;
+}
+.my-next-target-card4 {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: #FFF;
+    padding: 40px;
+}
+
+/* My Next Target section end */
+
+/* I need support section start */
 .i-need-support {
     width: 1140px;
     height: 313px;
     margin: 0 auto;
     margin-top: 49px;
-    background-image: url(./B10A1-Challenge-Begins/assets/handshake.jpg);
-    /* background-size: contain; */
+    background-image: border-radius: 16px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(./B10A1-Challenge-Begins/assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -321,6 +381,7 @@
     font-weight: 700;
     line-height: 36px;
     margin-top: 64px;
+    padding-top: 50px;
 }
 
 #i-need-support-section-description {
@@ -339,6 +400,7 @@
     justify-content: center;
     gap: 10px;
     margin-top: 24px;
+    padding-bottom: 50px;
 }
 
 #i-need-support-input-text {
@@ -350,7 +412,6 @@
     color: rgba(13, 19, 33, 0.40);
     font-size: 16px;
     font-weight: 400;
-    cursor: pointer;
 }
 
 #i-need-support-input-submit {
@@ -367,7 +428,7 @@
     cursor: pointer;
 }
 
-/*  */
+/* I need support section end */
 
 /* footer section start */
 #footer-section {
@@ -393,3 +454,4 @@
     margin-right: 130px;
     margin-top: 15px;
 }
+/* footer section end */
