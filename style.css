@@ -24,7 +24,6 @@
     text-align: center;
     font-size: 20px;
     font-weight: 600;
-
 }
 
 #navigation-button {
@@ -33,6 +32,7 @@
     opacity: 0.8;
     padding: 17px 24px;
     background-color: #FFF;
+    cursor: pointer;
 }
 
 /* navigation style end */
@@ -301,9 +301,77 @@
 }
 
 /* My Current Target end */
+
+/*  */
+.i-need-support {
+    width: 1140px;
+    height: 313px;
+    margin: 0 auto;
+    margin-top: 49px;
+    background-image: url(./B10A1-Challenge-Begins/assets/handshake.jpg);
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+}
+
+#i-need-support-section-head {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: 64px;
+}
+
+#i-need-support-section-description {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-top: 16px;
+}
+
+#i-need-support-input-text-submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 24px;
+}
+
+#i-need-support-input-text {
+    width: 548px;
+    border-radius: 8px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: #FFF;
+    padding: 19px 20px;
+    color: rgba(13, 19, 33, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+#i-need-support-input-submit {
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 17px 20px;
+    color: #0D1321;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+/*  */
+
 /* footer section start */
 #footer-section {
-    width: 100%;
+    width: 1440px;
     height: 100px;
     background: rgba(13, 19, 33, 0.03);
     margin: 0 auto;
@@ -318,7 +386,10 @@
     font-size: 20px;
     font-weight: 600;
     margin-left: 150px;
+    margin-top: 15px;
 }
-#footer-section-icon{
+
+#footer-section-icon {
     margin-right: 130px;
+    margin-top: 15px;
 }
